@@ -39,3 +39,39 @@ console.log("After c has been updated to use the new a: " + c);
 function sayHey() {
     console.log("Hey!");
 }
+
+function converstion() {
+    sayHey();
+    console.log("How are you");
+    console.log("Goodbye");
+}
+
+converstion();
+
+function sayHey(name) {
+    console.log("Hey " + name + "!");
+}
+
+let sayHey = (name) => "Hey " + name + "!"
+
+function conversation(name, topic){
+    sayHey(name)
+    console.log("Do you like " + topic + "?")
+   
+ }
+
+ const conversation = (name,topic) => sayHey(name) + ", Do you like " + topic + "?";
+ // is usually use to return something so we had to change the console log into a string.
+ 
+
+ let conversation = (name, topic) =>
+    sayHey(name)
+    console.log("Do you like " + topic + "?")
+   
+ }
+
+
+ function futureAge(current_age){
+     let futureAge = current_age + 5
+     return futureAge
+ }
